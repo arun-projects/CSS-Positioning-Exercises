@@ -1,0 +1,112 @@
+.container {
+    width:500px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/*Stackers*/
+
+.stackers {
+    width:200px;
+    height:100px;
+    border:#000 1px solid;
+}
+
+#stackers1 {
+    margin-left:100px;
+}
+
+#stackers2 {
+    margin-left:200px;
+}
+
+/*The Mirror*/
+
+#mirror1 {
+    width:100%;
+    height:500px;
+    border:#000 1px solid;
+    position:relative;
+}
+
+#mirror1 div {
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    border:#000 1px solid;
+}
+
+#mirror2 {
+    width:80%;
+    height:400px;
+}
+
+#mirror3 {
+    width:60%;
+    height:300px;
+}
+
+#mirror4 {
+    width:40%;
+    height:200px;
+}
+
+/*The Skinny*/
+
+.skinny-top-bottom {
+    width:100%;
+    border:#000 1px solid;
+    height:80px;
+}
+
+.skinny-middle {
+    margin-left:auto;
+    margin-right:auto;
+    width:60%;
+    height:300px;
+    border:#000 1px solid;
+}
+
+/*The Absolute*/
+
+#absolute {
+    width:100%;
+    height:500px;
+    border:#000 1px solid;
+    position:relative;
+}
+
+#absolute div {
+    border:#000 1px solid;
+    position:absolute;
+    width:100px;
+    height:100px;
+}
+
+/*Not completely necessary since top 0 and left 0 is default but let's put this in for learning sake*/
+#absolute1 {
+    top:0;
+    left:0;
+}
+
+#absolute2 {
+    top:0;
+    right:0;
+}
+
+#absolute3 {
+    bottom:0;
+    right:0;
+}
+
+#absolute4 {
+    bottom:0;
+    left:0;
+}
+
+#absolute5 {
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+}
